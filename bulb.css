@@ -1,0 +1,55 @@
+h1{
+    color: teal;
+}
+body,html{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#mode{
+    height: 50px;
+    width: 80px;
+    margin-left: -1400px;
+     margin-top: -200px;
+     border-radius: 10px;
+     background-image: url('darkmode.png');
+     background-size:40px;
+     background-repeat: no-repeat;
+     background-color: transparent;
+    
+}
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color:yellow;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+.btn{
+    margin-top: 40px;
+    height: 30px;
+    width: 300px;;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    border-radius: 6px;
+
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border-width: 0px;
+    width: 80px;
+    font-weight: 600;
+    background-color: rgb(125, 125, 220);
+}
+button:hover{
+    background-color: rgb(142, 92, 188);
+    cursor: pointer;
+}
+
